@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "lungedashmod",
+    "version": "${version}",
+    "name": "Lunge Dash Mod",
+    "description": "A Fabric mod that adds a lunge dash ability using a trident.",
+    "authors": [
+        "egorpav1626"
+    ],
+    "contact": {
+        "homepage": "https://github.com/egorpav1626/LungeDashMod",
+        "sources": "https://github.com/egorpav1626/LungeDashMod"
+    },
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.egorpav1626.lungedashmod.LungeDashMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.21.1",
+        "fabric-api": "*"
+    }
+}
